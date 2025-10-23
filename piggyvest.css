@@ -1,0 +1,300 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+ main{ background-color: #f2f7f8;
+    padding: 160px 0;
+padding-bottom: 0; }
+.container{ padding:155px 50px; 
+margin-top: -70px ;}
+.bmw{ gap: 5px;
+    word-spacing: -1px; }
+.spin{ animation: spin 6s linear infinite;
+    transform-origin: 50% 50%; }
+@keyframes spin { to {
+     transform: rotate(360deg); } }
+.rolls-royce{  gap: 10px;
+    transition: all 0.3s ease; }
+.rolls-royce :hover{ background-color: black !important;
+    transform: translateY(-3px) scale(1.03); }
+.rolls-royce>div>a{ text-decoration: none; }
+.bmw:hover{ background-color: black !important; }
+.phantom, .ghost{ transition: all 0.3s ease; }
+.avatar{ animation: anng 3s ease-in-out infinite; }
+.anng img:first-child{ top: -415px;
+    left: 56%; }
+.avatar:hover{  animation-play-state: paused; }
+@keyframes anng { 0%, 100%{
+    transform: translateY(0); }  
+50%{ transform: translateY(-15px); }  }
+.soka{ left: 50%;
+    top: -350px; }
+.tough{ top: -370px;
+    left: 84%; }
+.suki{ top: -220px;
+    left:50% ; }
+.appa{ top: -180px;
+    left: 85%; }
+.momo{ top: -68px;
+    left: 50%; }
+.azula{ top: 10px;
+    left: 85% ; }
+
+.iphone{ background-color: #f2f7f8; }
+.iphone13{ 
+    padding: 0 100px 20px 100px ; }
+.iphone16{ font-size: 14px; }
+.iphone17{ background-image: linear-gradient(180deg, transparent 65%, #abb7ca 0); }
+
+.toyota{ background-color: #f2f7f8;
+     padding: 60px 0; }
+.rangers{ gap: 20px 50px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);}
+.red-ranger, .pink-ranger, .black-ranger, .silver-ranger, .navyblue-ranger, .orange-ranger{ background-color: white ;
+    color:#003399;
+    padding: 200px 30px ;
+    width: 400px;
+    cursor: pointer;
+    box-shadow: 0 10px 20px grey;
+     overflow: hidden; }
+.blue-ranger{ top: 20px;
+    left: 40px;
+    margin-top: 10px;
+    font-size: 2rem; }
+.red-ranger:hover{ background-color: #0f60d6;
+    color: white; }
+.red-ranger:hover .arrow{ filter: brightness(0) invert(1); }
+.green-ranger{ color: black; 
+    top: 20%;}
+.red-ranger:hover p{ color: white; }
+.yellow-ranger{ top: 80%; 
+   color: #003399;}
+.red-ranger:hover .yellow-ranger {filter: brightness(0) invert(1); }
+.phone{ bottom: 0;
+    right: -150px;
+    transform: translateX(0);
+    opacity: 0;
+    /* transition: all 0.6s ease-in-out; */
+    transition: right 0.6s ease, opacity 0.6s ease; }
+.red-ranger:hover .phone{  right: 20px;
+    opacity: 1; }
+.pink-ranger{ color: #3296ff;}
+.pink-ranger:hover{ background-color: #3296ff;
+    color: white;}
+.pink-ranger:hover p { color: white;}
+.pink-ranger:hover .gold-ranger{  filter: brightness(0) invert(1); }
+.gold-ranger{ top: 80%;
+   color: #3296ff;}
+.pink-ranger:hover .phone{ right: 20px;
+    opacity: 1;}
+.black-ranger{ color: #069b40;  }
+.black-ranger>p{ color: black; 
+    top: 27%;}
+.black-ranger:hover{background-color: #069b40;
+   color: white;}
+.black-ranger:hover p{ color: white;}
+.purple-ranger{top: 80%;
+   color: #069b40;}
+.black-ranger:hover .purple-ranger{filter: brightness(0) invert(1);}
+.black-ranger:hover .phone{right: 20px;
+   opacity: 1;}
+.silver-ranger{ color: #e5288e; }
+.silver-ranger:hover{background-color: #e5288e ;
+    color: white;}
+.silver-ranger:hover p{color: white;}
+.violet-ranger{top: 80%;
+    color: #e5288e;}
+.silver-ranger:hover .violet-ranger{filter: brightness(0) invert(1);}
+.silver-ranger:hover .phone{right: 20px;
+    opacity: 1;}
+.navyblue-ranger{ color: #0c1825; }
+.navyblue-ranger:hover{background-color: #0c1825 ;
+    color: white;}
+.navyblue-ranger:hover p{color: white;}
+.skyblue-ranger{top: 80%;
+    color: #0c1825;}
+.navyblue-ranger:hover .skyblue-ranger{filter: brightness(0) invert(1);}
+.navyblue-ranger:hover .phone{right: 20px;
+   opacity: 1;}
+   .orange-ranger{ color: #eb713d; }
+.orange-ranger:hover{background-color:#eb713d;
+    color: white;}
+.orange-ranger:hover p{color: white;}
+.olivegreen-ranger{top: 80%;
+    color: #eb713d;}
+.orange-ranger:hover .olivegreen-ranger{filter: brightness(0) invert(1);}
+.orange-ranger:hover .phone{right: 20px;
+    opacity: 1;}
+
+.epl{background-color: white;
+padding: 150px;}
+.madrid{background-color: #7913e5;
+    padding: 10vw 1vw;
+   width: 100%;
+   max-width: 90%;
+   color: white;
+   text-align: left;
+   padding-top: 4vw;}
+.sevilla{ top: 90%;
+ background-image: linear-gradient(180deg, transparent 65%, #abb7ca 0);}
+.girona{  left: 55%;
+    top: 26.8%; }
+
+.seria-a{ background-color: #f2f7f8;
+     padding: 80px 100px;
+z-index: 9999999999999;}
+.juve{text-align: left;}
+.napoli{margin-top: 170px;}
+.roma{ gap: 40px;
+    flex-wrap: wrap;}
+.lazio, .torino { transition: all 0.3s ease; }
+.fiorentina{ align-items: flex-start;}
+.atlanta :hover{  transform: translateY(-3px) scale(1.03); }
+
+
+.saints{background-color: #f2f7f8;
+    padding-top: 10%;
+background: linear-gradient(to bottom, #f2f7f8,#fff);}
+.john{gap: 50px;
+flex-wrap: wrap;}
+
+ footer{ padding: 80px 16px 15px;
+    background-color: #fff;}
+.img-container{ margin-left: 12%;
+    max-width: 173px;
+    flex-direction: column;
+    gap: 25px;}
+.playstation{ margin-left: 8%; }
+.ps1,.ps2,.ps3{ margin-top: -5%;}    
+.x-box{ color: #3d4f60;}    
+.socials :hover {  transform: translateY(-3px) scale(1.03); }
+ .x-box:hover{color: #3084d6;}       
+.sony{margin-left: -30px;}
+.gta{margin-left: -50px;}
+.socials{gap: 20px;
+margin-left: 33%;}
+.pop{ margin-left: 25%;}
+.rap{margin-left: 35%;
+    margin-top: 20px;}
+.hiphop{margin-left: 45%;}
+hr{margin-left: 7%;
+   margin-right: 5%;}
+.afrobeat{margin-left: 7%;}
+.blues{margin-left: 7%;
+margin-top: 3%;}
+
+@media screen and (max-width:1024px) {
+    .avatar{right: 9%;}
+    .girona{left: 55%;
+    width: 270px;
+    top: 100px;}}
+
+ @media screen and (max-width:768px) { .como{width: 615px;}
+        footer{ display: flex;
+            flex-wrap: wrap; }
+        .girona{ width: 141px;
+                 top: 57%; 
+                left:63% ;}
+        .rangers{grid-template-columns: 1fr;}
+        .container{padding: 110px 10px;}
+        .anng img:first-child{width: 324px;
+              top: -339px;
+              left: 62%;}
+        .soka{width: 140px;
+              left: 57%; }
+       .tough{width: 120px;
+    left: 92%;}
+       .suki{width: 120px;
+    left: 54%;}
+       .appa{width: 120px;
+    left: 91%;}
+       .momo{width: 120px;
+    left: 55%;}
+       .azula{width: 120px;
+    top: -30%;} 
+.paul{margin-left: -55px;}
+.gta{margin-left: -37px;}}
+
+     @media screen and (max-width:425px) 
+     { .como{width: 310px;
+    margin-left: -32px;}
+    footer{flex-wrap: wrap;}
+    .iphone13{  padding: 315px 25px 20px 9px;}
+    .container{ margin-top: -166px;}
+   .anng img:first-child{
+    left: 15%;
+    top: 48px;  }
+   .soka{left: 8%;
+        top: 80px;}
+   .suki{left: 9%;
+        top: 185px;}
+   .tough{left: 68%;
+        top: 65px;}
+   .appa{left: 71%;
+        top: 178px;}
+   .momo{left:8% ;
+         top: 297px;}
+   .azula{left: 70%;
+         top: 348px;}
+.epl{  padding: 50px 20px;}
+.arsenal{font-size: 32px !important;}
+.chelsea{font-size: 16px !important;}
+.laliga{overflow: hidden;}
+.madrid{padding: 30px 20px;
+    max-width: 95%;
+    padding-top: 30px;
+    min-height: 400px;
+    padding-bottom: 200px;}
+.barca{font-size: 24px;}
+.atletico{font-size: 14px !important;
+    line-height: 1.5;
+    br{display: none;}}
+.madrid .girona{  position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    top: auto;
+    width: 200px;
+    max-width: 90%;
+    display: block;}
+.madrid .sevilla{ position: static;
+    margin-top: 15px;
+    display: inline-block;
+    font-size: 14px;}
+.paul{ flex-wrap: wrap;
+margin-left: 7px;}
+.img-container{margin-left: 0;}
+.playstation{margin-left: 2%;}
+.gta{margin-left: 26px;}
+.sony{margin-left: 22px;}
+.camry{font-size: 21px !important;}
+.avensis{font-size: 11px !important;}
+.red-ranger, .pink-ranger, .black-ranger, .silver-ranger, .navyblue-ranger, .orange-ranger {width: 337px;}
+.caligari{width: 250px;}}
+
+ @media screen and (max-width:374px) {
+.camry{font-size: 21px !important;}
+.avensis{font-size: 11px !important;}
+.red-ranger, .pink-ranger, .black-ranger, .silver-ranger, .navyblue-ranger, .orange-ranger {width: 337px;}
+.roma{width: 300px;}
+.acmillan{font-size: 12px !important;}
+.intermillan{font-size: 18px !important;}
+.como{width: 247px;}
+.paul{margin-left: 19px;}
+.footer-bootom{margin-left: -3px;}
+.gta{margin-left: 40px;}
+.caligari{width: 220px;}}
+
+ @media screen and (max-width:320px) { .anng img:first-child{
+    width: 280px; }
+  .momo{top: 271px;}
+  .azula{top: 318px;}
+  .camry{font-size: 15px !important;}
+  .avensis{font-size: 9px !important;}
+  .red-ranger, .pink-ranger, .black-ranger, .silver-ranger, .navyblue-ranger, .orange-ranger {width: 258px;}
+  .red-ranger>p{top: 30%;}
+  .green-ranger{font-size: 12px !important;}
+  .blue-ranger{font-size: 20px;}
+  .como{margin-left: -62px;}
+.phantom{padding: 5px !important;}}
